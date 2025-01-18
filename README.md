@@ -29,24 +29,7 @@ brew install deno cmake
 - Minimum 8GB RAM (16GB recommended)
 - 20GB free disk space
 - Multi-core processor (build time scales with number of cores)
-
-## Building Emscripten
-
-1. Clone this repository:
-   ```bash
-   git clone [your-repo-url]
-   cd emscripten-deno-build
-   ```
-
-2. Make the build script executable:
-   ```bash
-   chmod +x build-emscripten.sh
-   ```
-
-3. Run the build script:
-   ```bash
-   ./build-emscripten.sh
-   ```
+ 
 
 The build process typically takes 30-60 minutes depending on your system specifications.
 
